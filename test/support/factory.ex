@@ -47,6 +47,11 @@ defmodule EOD.Repo.Factory do
       current_endurance: 100,
       current_concentration: 20,
 
+      x_loc: 0.0,
+      y_loc: 0.0,
+      z_loc: 0.0,
+      heading: 0,
+
       account: build(:account)
     }
   end
